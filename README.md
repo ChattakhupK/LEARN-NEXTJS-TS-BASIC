@@ -1,7 +1,7 @@
 ## Step 1 Install จ้า (basic-next คือชื่อโฟลเดอร์)
 
 ```sh
-npx create-next-app@latest roitai
+npx create-next-app@latest Basic-nextjs
 ```
 
 ## ถ้ามีเรื่อง
@@ -146,8 +146,8 @@ export const createCamp = async (formData) => {
 export const fetchCamp = async () => {
   // db.camp.findMany({})
   const user = [
-    { id: 1, title: "Route 3060" },
-    { id: 2, title: "Korat" },
+    { id: 1, title: "Udonthai 3060" },
+    { id: 2, title: "UD" },
   ];
 
   return user;
